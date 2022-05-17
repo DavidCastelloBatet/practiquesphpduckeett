@@ -1,3 +1,9 @@
+<?php
+  $nom = 'Usuari';
+  $nom = 'David';
+  $preu = 5;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +14,7 @@
 </head>
 <body>
   <h1>La Botiga de Caramels</h1>
-  <h2>Benvingut *nom*</h2>
-  <p>El preu dels caramels es *preu* per paquet</p>
+  <h2>Benvingut <?= $nom ?></h2>
+  <p>El preu dels caramels es <?= $preu ?>€ per paquet.</p>
 </body>
 </html>
