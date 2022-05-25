@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(200, 241, 200);
+  text-align: center;
+}
+
+header,
+footer {
+  height: 20vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 5vh;
+  padding: 10px;
+}
+
+table tr th {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+table tr td {
+  padding: 5px;
+}
+
+.saldos {
+  background-color: rgb(93, 220, 68);
+  color: black;
+  margin: 5vh 20vw 0 20vw;
+  padding: 20px;
+  text-align: left;
+}
